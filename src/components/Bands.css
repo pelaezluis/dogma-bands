@@ -1,0 +1,52 @@
+.description {
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+    padding: 1em;
+    margin: auto;
+}
+
+.description h3 {
+    text-align: center;
+}
+
+.description ul {
+    list-style: disc;
+}
+
+.tribute-band li {
+    font-size: 14px;
+}
+
+.social-media {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media a {
+    width: 30%;
+}
+
+.social-media img {
+    width: 50px;
+}
+
+@media (max-width: 600px)  {
+    
+    .social-media {
+        margin: auto;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .social-media a {
+        width: 30%;
+    }
+    
+    .social-media img {
+        width: 50px;
+    }
+}

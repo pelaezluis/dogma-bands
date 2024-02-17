@@ -1,0 +1,30 @@
+.profile-band {
+    text-align: center;
+    width: 16rem;
+    height: 20rem;
+    color: white;
+    box-shadow: 3px 3px 30px silver;
+}
+
+.profile-band img {
+    width: 100%;
+}
+
+.profile-band:hover {
+    box-shadow: 2px 2px 30px rgb(255, 50, 50);
+}
+
+@media (max-width: 600px)  {
+    .profile-band {
+        text-align: center;
+        width: 15rem;
+        height: 17rem;
+        color: white;
+        box-shadow: 5px 5px 50px silver;
+        margin: 2em;
+    }
+    
+    .profile-band img {
+        width: 100%;
+    }
+  }

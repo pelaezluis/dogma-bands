@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+    margin-bottom: 3em;
+    width: 100%;
+}
+  
+header img {
+    margin-top: 1em;
+    width: 30%;
+}
+
+@media (max-width: 600px)  {
+    header {
+      margin-bottom: 1em;
+      width: 100%;
+    }
+  
+    header img {
+      width: 50%;
+    }
+  }
