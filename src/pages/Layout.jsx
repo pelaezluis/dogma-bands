@@ -13,13 +13,13 @@ export const Layout = () => {
             <Header />
             <div className='bands'>
                 <div className="band-div">
-                    <Link to="/duality">
+                    <Link className='link-band' to="/duality">
                         <ProfileBand bandName='Duality' bandImg={duality} />
                     </Link>
-                    <Link to="/random-shift">
+                    <Link className='link-band' to="/random-shift">
                         <ProfileBand bandName='Random Shift' bandImg={random} />
                     </Link>
-                    <Link to="/rockbita">
+                    <Link className='link-band' to="/rockbita">
                         <ProfileBand bandName='Rockbita' bandImg={rockbita} />
                     </Link>
                 </div>

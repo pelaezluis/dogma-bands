@@ -11,7 +11,11 @@
     justify-content: space-between;
     width: 80%;
 }
-  
+
+.link-band {
+    text-decoration: none;
+}
+
 @media (max-width: 600px)  {
     .bands {
       width: 100%;
