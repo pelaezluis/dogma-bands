@@ -4,6 +4,7 @@
     width: 90%;
     padding: 1em;
     margin: auto;
+    font-family:cursive;
 }
 
 .description h3 {
@@ -36,12 +37,15 @@
 
 .members-band {
     display: flex;
-    width: 60%;
     justify-content: space-between;
 }
 
 .members-band img {
     width: 40%;
+}
+
+.img-rockbita {
+    text-align: center;
 }
 
 @media (max-width: 600px)  {
@@ -62,7 +66,6 @@
     }
 
     .members-band {
-        border: solid red;
         display: inline-block;
         width: 100%;
     }
