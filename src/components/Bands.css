@@ -16,6 +16,7 @@
 
 .tribute-band li {
     font-size: 14px;
+    list-style: circle;
 }
 
 .social-media {
@@ -33,6 +34,16 @@
     width: 50px;
 }
 
+.members-band {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.members-band img {
+    width: 40%;
+}
+
 @media (max-width: 600px)  {
     
     .social-media {
@@ -48,5 +59,21 @@
     
     .social-media img {
         width: 50px;
+    }
+
+    .members-band {
+        border: solid red;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .members-band img {
+        text-align: center;
+        width: 50%;
+    }
+
+    .img-rockbita {
+        width: 100%;
+        text-align: center;
     }
 }

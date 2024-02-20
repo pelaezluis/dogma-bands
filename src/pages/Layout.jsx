@@ -1,8 +1,8 @@
 import './Layout.css'
 import { Link } from "react-router-dom"
-import duality from '../assets/img/duality.jpeg'
+import duality from '../assets/img/duality.PNG'
 import random from '../assets/img/random.jpeg'
-import rockbita from '../assets/img/rockbita.jpeg'
+import rockbita from '../assets/img/rockbita.jpg'
 import { ProfileBand } from '../components/ProfileBand';
 import { Outlet } from "react-router-dom";
 import { Header } from './Header'

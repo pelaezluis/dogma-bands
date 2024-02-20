@@ -15,14 +15,7 @@ function App() {
 
   return (
     <>
-      <Routes>    
-        <Route path='/' element={<Layout />}>
-          <Route path='/duality' element={<BandInfo title={'Duality'} description={<Rockbita />} members={dualityMembers}/>} />
-          <Route path='/random-shift' element={<BandInfo title={'Random Shift'} members={randomMembers}/>} />
-          <Route path='/rockbita' element={<BandInfo title={'Rockbita'} description={<Rockbita />}  />} />
-        </Route>
-
-      </Routes>
+      
     </>
   );
 }
