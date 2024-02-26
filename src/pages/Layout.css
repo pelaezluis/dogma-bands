@@ -11,6 +11,11 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+    color: white;
+}
+
+.band-div h3 {
+  font-size: 26px;
 }
 
 .link-band {

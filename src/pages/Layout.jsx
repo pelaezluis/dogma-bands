@@ -13,6 +13,7 @@ export const Layout = () => {
             <Header />
             <div className='bands'>
                 <div className="band-div">
+                    <h3>"Somos la descarga más letal de rock y buena energía"</h3>
                     <Link className='link-band' to="/duality">
                         <ProfileBand bandName='Duality' bandImg={duality} />
                     </Link>

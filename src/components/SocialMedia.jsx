@@ -3,7 +3,7 @@ import facebook from '../assets/img/facebook.png'
 import instagram from '../assets/img/instagram.png'
 import './Bands.css'
 
-export const SocialMedia = () => {
+export const SocialMedia = ({instagram_url, facebook_url}) => {
     return (
         <>
             <p>
@@ -16,8 +16,8 @@ export const SocialMedia = () => {
                 O visitanos en Instagram y Facebook como @rockbitarockband
             </p>
             <div className='social-media'>
-                <a href="https://www.instagram.com/rockbitarockband/" target='blank_'><img src={instagram} alt="" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100063476831710" target='blank'><img src={facebook} alt="" /></a>
+                <a href={instagram_url} target='blank_'><img src={instagram} alt="" /></a>
+                <a href={facebook_url} target='blank'><img src={facebook} alt="" /></a>
             </div>
         </>
     )
