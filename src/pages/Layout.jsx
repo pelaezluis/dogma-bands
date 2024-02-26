@@ -6,6 +6,7 @@ import rockbita from '../assets/img/rockbita.jpg'
 import { ProfileBand } from '../components/ProfileBand';
 import { Outlet } from "react-router-dom";
 import { Header } from './Header'
+import HandRock from '../assets/img/handrock.png'
 
 export const Layout = () => {
     return (
@@ -13,7 +14,8 @@ export const Layout = () => {
             <Header />
             <div className='bands'>
                 <div className="band-div">
-                    <h3>"Somos la descarga más letal de rock y buena energía"</h3>
+                    <h3>Somos la descarga más letal de rock y buena energía</h3>
+                    <img src={HandRock} alt="rock" className='hand-rock'/>
                     <Link className='link-band' to="/duality">
                         <ProfileBand bandName='Duality' bandImg={duality} />
                     </Link>
