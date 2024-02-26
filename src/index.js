@@ -7,24 +7,26 @@ import { Random } from './components/Random';
 import { Duality } from './components/Duality';
 import { Layout } from './pages/Layout';
 import { BandInfo } from './pages/BandInfo';
+import ScrollToTop from './components/ScrollToTop';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Layout />
+    element: <><ScrollToTop /><Layout /></>,
   },
   {
-    path: '/rockbita',
-    element: <BandInfo title={'Rockbita'} description={<Rockbita />}  />
+    path: 'rockbita',
+    element: <><ScrollToTop /><BandInfo title={'Rockbita'} description={<Rockbita />} /></>
   },
   {
-    path: '/random-shift',
-    element: <BandInfo title={'Random Shift'} description={<Random />} />
+    path: 'random-shift',
+    element: <><ScrollToTop /><BandInfo title={'Random Shift'} description={<Random />} /></>
   },
   {
-    path: '/duality',
-    element: <BandInfo title={'Duality'} description={<Duality />} />
+    path: 'duality',
+    element: <><ScrollToTop /><BandInfo title={'Duality'} description={<Duality />} /></>
   }
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
