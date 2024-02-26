@@ -16,7 +16,7 @@
 }
 
 .tribute-band li {
-    font-size: 14px;
+    font-size: 16px;
     list-style: circle;
 }
 
@@ -56,9 +56,18 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .social-media-wa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-media-wa a img{
+        width: 16%;
+    }
     
     .social-media a {
-        width: 30%;
+        width: 20%;
     }
     
     .social-media img {
