@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Rockbita } from './components/Rockbita';
 import { Random } from './components/Random';
 import { Duality } from './components/Duality';
@@ -9,7 +9,7 @@ import { Layout } from './pages/Layout';
 import { BandInfo } from './pages/BandInfo';
 import ScrollToTop from './components/ScrollToTop';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <><ScrollToTop /><Layout /></>,
