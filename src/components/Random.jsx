@@ -93,7 +93,11 @@ export const Random = () => {
                     <li>Eventos comerciales</li>
                     <li>Shows para Bar, hoteles, yates, etc.</li>
                 </ul>
-                <SocialMedia instagram_url={"https://www.instagram.com/randomshiftrockband"} facebook_url={"https://www.facebook.com/profile.php?id=100024269503654"} />
+                <SocialMedia
+                    instagram_url={"https://www.instagram.com/randomshiftrockband"}
+                    facebook_url={"https://www.facebook.com/profile.php?id=100024269503654"} 
+                    userBand="randomshiftrockband"
+                />
             </div>
         </>
     )

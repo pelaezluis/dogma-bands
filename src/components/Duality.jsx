@@ -79,7 +79,11 @@ export const Duality = () => {
                     <li>Eventos comerciales</li>
                     <li>Shows para Bar, hoteles, yates, etc.</li>
                 </ul>
-                <SocialMedia instagram_url={"https://www.instagram.com/dualityrocknroll/"} facebook_url={"100084175128866"}/>
+                <SocialMedia
+                    instagram_url={"https://www.instagram.com/dualityrocknroll"}
+                    facebook_url={"100084175128866"}
+                    user_band='dualityrocknroll'
+                />
             </div>
 
         </>

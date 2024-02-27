@@ -68,7 +68,11 @@ export const Rockbita = () => {
                     <li>Shows para Bar, hoteles, yates, etc.</li>
                 </ul>
 
-                <SocialMedia instagram_url={"https://www.instagram.com/rockbitarockband/"} facebook_url={"https://www.facebook.com/profile.php?id=100063476831710"} />
+                <SocialMedia
+                    instagram_url={"https://www.instagram.com/rockbitarockband/"}
+                    facebook_url={"https://www.facebook.com/profile.php?id=100063476831710"} 
+                    userBand={"rockbitarockband"}
+                />
             </div>
         </>
     )
